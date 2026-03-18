@@ -1,0 +1,129 @@
+body{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(120deg,#5f2c82,#49a09d);
+font-family:Arial;
+
+}
+
+.login-container{
+
+width:900px;
+
+}
+
+.login-box{
+
+display:flex;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+
+}
+
+/* lado izquierdo */
+
+.login-left{
+
+width:50%;
+background:url("../img/money.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+
+}
+
+.logo{
+
+background:rgba(0,0,0,0.5);
+padding:20px;
+border-radius:10px;
+text-align:center;
+
+}
+
+/* lado derecho */
+
+.login-right{
+
+width:50%;
+padding:50px;
+background:#0f2027;
+color:white;
+
+}
+
+.login-right h1{
+
+font-weight:bold;
+margin-bottom:10px;
+
+}
+
+.login-right p{
+
+margin-bottom:30px;
+
+}
+
+.input-group-text{
+
+background:#eee;
+
+}
+
+/* botón */
+
+.btn-login{
+
+width:100%;
+border:none;
+padding:12px;
+border-radius:30px;
+font-weight:bold;
+color:white;
+background:linear-gradient(90deg,#ff416c,#ff4b2b,#8e2de2);
+transition:0.3s;
+
+}
+
+.btn-login:hover{
+
+opacity:0.8;
+
+}
+
+
+/*calendario*/
+.flatpickr-calendar {
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+font-family:Arial;
+}
+
+.flatpickr-day.selected {
+background:#0d6efd;
+border-color:#0d6efd;
+}
+
+.flatpickr-months {
+background:#1f2d3d;
+color:white;
+border-radius:10px 10px 0 0;
+}
+
+.flatpickr-current-month {
+color:white;
+}
+
+.flatpickr-weekday {
+color:#1f2d3d;
+font-weight:bold;
+}   
